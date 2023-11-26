@@ -1,0 +1,78 @@
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\bin\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.deps.json
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\bin\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.dll
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\bin\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.pdb
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.csproj.AssemblyReference.cache
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Page2.xaml.g.cs
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\pagina1.xaml.g.cs
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.AssemblyInfoInputs.cache
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.AssemblyInfo.cs
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.csproj.CoreCompileInputs.cache
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.dll
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\refint\MVVM_implementacion_CARS_NEW.dll
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.pdb
+C:\Users\cd08\Desktop\DAR\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\ref\MVVM_implementacion_CARS_NEW.dll
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\bin\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.deps.json
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\bin\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.dll
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\bin\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.pdb
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.csproj.AssemblyReference.cache
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Page2.xaml.g.cs
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\pagina1.xaml.g.cs
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.AssemblyInfoInputs.cache
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.AssemblyInfo.cs
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.csproj.CoreCompileInputs.cache
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.dll
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\refint\MVVM_implementacion_CARS_NEW.dll
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.pdb
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\ref\MVVM_implementacion_CARS_NEW.dll
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\bin\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.deps.json
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\bin\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.dll
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\bin\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.pdb
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.csproj.AssemblyReference.cache
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Page2.xaml.g.cs
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\pagina1.xaml.g.cs
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.AssemblyInfoInputs.cache
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.AssemblyInfo.cs
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.csproj.CoreCompileInputs.cache
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.dll
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\refint\MVVM_implementacion_CARS_NEW.dll
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.pdb
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\ref\MVVM_implementacion_CARS_NEW.dll
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Crudpokemon.xaml.g.cs
+C:\Users\cd08\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Menuprincipal.xaml.g.cs
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\bin\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.deps.json
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\bin\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.dll
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\bin\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.pdb
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.csproj.AssemblyReference.cache
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Crudpokemon.xaml.g.cs
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Menuprincipal.xaml.g.cs
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Page2.xaml.g.cs
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\pagina1.xaml.g.cs
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.AssemblyInfoInputs.cache
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.AssemblyInfo.cs
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.csproj.CoreCompileInputs.cache
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.dll
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\refint\MVVM_implementacion_CARS_NEW.dll
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\MVVM_implementacion_CARS_NEW.pdb
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\ref\MVVM_implementacion_CARS_NEW.dll
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Pokemon\Listapokemon.xaml.g.cs
+C:\Users\cd08\Desktop\CARLOS ARMANDO RAMIREZ SALAS\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Pokemon\Resgistrarpokemon.xaml.g.cs
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Crudpokemon.xaml.g.cs
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Menuprincipal.xaml.g.cs
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Pokemon\Listapokemon.xaml.g.cs
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Pokemon\Resgistrarpokemon.xaml.g.cs
