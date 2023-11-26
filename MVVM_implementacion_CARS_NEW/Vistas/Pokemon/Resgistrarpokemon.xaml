@@ -30,7 +30,8 @@
                        PlaceholderColor="White"
                        TextTransform="Lowercase"
                        HorizontalOptions="StartAndExpand"
-                       Text="{Binding Txtnombre}"/>
+                       Text="{Binding Txtnombre}"
+                       Keyboard="Text"/>
                 
             </StackLayout>
             <StackLayout Orientation="Horizontal">
@@ -60,7 +61,8 @@
                        PlaceholderColor="White"
                        TextTransform="Lowercase"
                        HorizontalOptions="StartAndExpand"
-                       Text="{Binding Txtnro}"/>
+                       Text="{Binding Txtnro}"
+                       Keyboard="Numeric"/>
 
             </StackLayout>
             <StackLayout Orientation="Horizontal">
@@ -89,7 +91,8 @@
                        PlaceholderColor="White"
                        TextTransform="Lowercase"
                        HorizontalOptions="StartAndExpand"
-                       Text="{Binding Txtpoder}"/>
+                       Text="{Binding Txtpoder}"
+                       Keyboard="Text"/>
 
             </StackLayout>
             <StackLayout Orientation="Horizontal">
