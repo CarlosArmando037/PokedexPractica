@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MVVM_implementacion_CARS_NEW.Vistas.Pokemon.Resgistrarpokemon"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+                >
     
     <Grid RowDefinitions="80,*"
           BackgroundColor="#1d1d1d">
@@ -168,6 +169,7 @@
                     HeightRequest="60"
                     Command="{Binding InsertarCommand}"/>
             </Frame>
+            
         </StackLayout>
     </Grid>
     

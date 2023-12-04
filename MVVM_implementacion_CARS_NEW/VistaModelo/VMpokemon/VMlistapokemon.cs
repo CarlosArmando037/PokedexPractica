@@ -16,6 +16,8 @@ namespace MVVM_implementacion_CARS_NEW.VistaModelo.VMpokemon
         #region VARIABLES
         string _Texto;
         ObservableCollection<Mpokemon> _Listapokemon;
+        ObservableCollection<Mpokemon> _Obtenerpokemon;
+
         #endregion
         #region CONSTRUCTOR
         public VMlistapokemon(INavigation navigation)
@@ -38,6 +40,16 @@ namespace MVVM_implementacion_CARS_NEW.VistaModelo.VMpokemon
                 OnpropertyChanged();
             }
         }
+        
+        public ObservableCollection<Mpokemon> Obtenerpokemon
+        {
+            get { return _Obtenerpokemon; }
+            set
+            {
+                SetValue(ref _Obtenerpokemon, value);
+                OnpropertyChanged();
+            }
+        }
         #endregion
         #region PROCESOS
         public async Task Mostrarpokemon()
@@ -49,6 +61,19 @@ namespace MVVM_implementacion_CARS_NEW.VistaModelo.VMpokemon
         {
             await Navigation.PushAsync(new Resgistrarpokemon());
         }
+        public async Task Iramodificar()
+        {
+            await Navigation.PushAsync(new Editarpokemon());
+            //esto puedde ser para obtener los datos del pokemon
+            var funcion = new Dpokemon();
+            //necesitro una funcio que este en Dpokemon para obtener los dfatos
+            Obtenerpokemon = await funcion.MostrarPokemones();
+        }
+        public async Task Iraborrar()
+        {
+            await Navigation.PushAsync(new Borrarpokemon());
+        }
+
         public void ProcesoSimple()
         {
 
@@ -56,6 +81,9 @@ namespace MVVM_implementacion_CARS_NEW.VistaModelo.VMpokemon
         #endregion
         #region COMANDOS
         public ICommand Iraregistrocommand => new Command(async () => await Iraregistro());
+        public ICommand Iraborrarcommand => new Command(async () => await Iraborrar());
+        public ICommand Modificarcommand => new Command(async () => await Iramodificar());
+
         public ICommand ProcesoSimpcommand => new Command(ProcesoSimple);
         #endregion
     }

@@ -29,6 +29,16 @@ namespace MVVM_implementacion_CARS_NEW.Datos
 
                 });
         }
+        /*
+        public async Task ObtenerDatosPoke()
+        {
+            var data = await Task.Run(() => Cconexion.firebase
+            .Child("Pokemon").OnceSingleAsync<Mpokemon>();
+
+
+
+        } */
+
         public async Task<ObservableCollection<Mpokemon>> MostrarPokemones()
         {
             //return (await Cconexion.firebase

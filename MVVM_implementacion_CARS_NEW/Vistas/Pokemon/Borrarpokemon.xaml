@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVM_implementacion_CARS_NEW.Vistas.Pokemon.Borrarpokemon"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#881010">
+    <!--talvez que el color del fondo se cambie deacuerdo al color del pokemon-->
+
+    <Grid RowDefinitions="60,*"
+          >
+
+        <Grid
+            Margin="0,0,0,-30"
+            BackgroundColor="#ff1100">
+            <StackLayout  Orientation="Horizontal" Padding="15">
+                <Image Source="Resources/flechaAtras.png" WidthRequest="50">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding volvercommand}"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+            <Label Text="Eliminar"
+           TextColor="White"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"
+           FontSize="35"
+           FontAttributes="Bold"/>
+        </Grid>
+        <!-- aqui seria obtener los datos de la base de datos y se mostratia con el view coleccion creo-->
+        
+        <Grid
+            Margin="0,600,0,-800">
+            <Label Text="¿desea eliminar el pokemon?"
+                    VerticalOptions="Start"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    TextTransform="Uppercase"
+                    FontSize="20"
+                    HorizontalOptions="Center"/>
+            <Button Text="SI"
+                    FontAttributes="Bold"
+                    FontSize="30"
+                    BackgroundColor="Green"
+                    Margin="55,75,245,75"
+                    BorderColor="Black"
+                    BorderWidth="4"
+                    CornerRadius="20"
+                    />
+            <Button Text="NO"
+                    BackgroundColor="Red"
+                    FontAttributes="Bold"
+                    FontSize="30"
+                    Margin="245,75,55,75"
+                    BorderColor="Black"
+                    BorderWidth="4"
+                    CornerRadius="20"
+                    />
+
+        </Grid>
+        
+    </Grid>
+
+</ContentPage>

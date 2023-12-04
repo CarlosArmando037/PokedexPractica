@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MVVM_implementacion_CARS_NEW.VistaModelo.VMpokemon;
 using MVVM_implementacion_CARS_NEW.Vistas.Pokemon;
+using MVVM_implementacion_CARS_NEW.Modelo;
 
 namespace MVVM_implementacion_CARS_NEW.Vistas.Pokemon
 {
@@ -17,8 +18,15 @@ namespace MVVM_implementacion_CARS_NEW.Vistas.Pokemon
 		public Listapokemon ()
 		{
 			InitializeComponent ();
-			BindingContext = new VMlistapokemon(Navigation); ;
+			BindingContext = new VMlistapokemon(Navigation);
 		}
+
+		public async void ListViewName_ItemSelected(object sender,SelectedItemChangedEventArgs e)
+		{
+			await Navigation.PushAsync(new Editarpokemon(e.SelectedItem as Mpokemon));
+		}
+
+
 
     }
 }

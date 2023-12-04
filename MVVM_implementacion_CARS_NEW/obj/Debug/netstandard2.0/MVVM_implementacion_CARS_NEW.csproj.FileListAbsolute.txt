@@ -76,3 +76,5 @@ C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW
 C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Menuprincipal.xaml.g.cs
 C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Pokemon\Listapokemon.xaml.g.cs
 C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Pokemon\Resgistrarpokemon.xaml.g.cs
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Pokemon\Borrarpokemon.xaml.g.cs
+C:\Users\elram\Desktop\MVVM_implementacion_CARS_NEW\MVVM_implementacion_CARS_NEW\obj\Debug\netstandard2.0\Vistas\Pokemon\Editarpokemon.xaml.g.cs
