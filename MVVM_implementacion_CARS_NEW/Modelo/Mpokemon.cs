@@ -13,7 +13,7 @@ namespace MVVM_implementacion_CARS_NEW.Modelo
         public string Nombre { get; set; }
         public string NroOrden { get; set; }
         public string Poder { get; set; }
-        public string Idpokemon { get; set; }
+        public Guid Idpokemon { get; set; }
 
     }
 }

@@ -16,14 +16,15 @@ namespace MVVM_implementacion_CARS_NEW.VistaModelo.VMpokemon
         #region VARIABLES
         string _Texto;
         ObservableCollection<Mpokemon> _Listapokemon;
-        ObservableCollection<Mpokemon> _Obtenerpokemon;
+        //ObservableCollection<Mpokemon> _Obtenerpokemon;
+        Mpokemon _PokemonSeleccionado;
 
         #endregion
         #region CONSTRUCTOR
         public VMlistapokemon(INavigation navigation)
         {
             Navigation = navigation;
-            Mostrarpokemon();
+            MostrarPokemons();
         }
         #endregion
         #region OBJETOS
@@ -40,7 +41,7 @@ namespace MVVM_implementacion_CARS_NEW.VistaModelo.VMpokemon
                 OnpropertyChanged();
             }
         }
-        
+        /*
         public ObservableCollection<Mpokemon> Obtenerpokemon
         {
             get { return _Obtenerpokemon; }
@@ -49,18 +50,32 @@ namespace MVVM_implementacion_CARS_NEW.VistaModelo.VMpokemon
                 SetValue(ref _Obtenerpokemon, value);
                 OnpropertyChanged();
             }
+        }*/
+        public Mpokemon PokemonSeleccionado
+        {
+            get { return _PokemonSeleccionado; }
+            set
+            {
+                if (_PokemonSeleccionado != value)
+                {
+                    _PokemonSeleccionado = value;
+                }
+            }
         }
+
         #endregion
         #region PROCESOS
-        public async Task Mostrarpokemon()
+        public async Task MostrarPokemons()
         {
             var funcion = new Dpokemon();
             Listapokemon = await funcion.MostrarPokemones();
         }
+
         public async Task Iraregistro()
         {
             await Navigation.PushAsync(new Resgistrarpokemon());
         }
+        /*
         public async Task Iramodificar()
         {
             await Navigation.PushAsync(new Editarpokemon());
@@ -68,10 +83,15 @@ namespace MVVM_implementacion_CARS_NEW.VistaModelo.VMpokemon
             var funcion = new Dpokemon();
             //necesitro una funcio que este en Dpokemon para obtener los dfatos
             Obtenerpokemon = await funcion.MostrarPokemones();
+        }*/
+        public async Task Iramodificar()
+        {
+            await Navigation.PushAsync(new Editarpokemon(PokemonSeleccionado));
         }
+
         public async Task Iraborrar()
         {
-            await Navigation.PushAsync(new Borrarpokemon());
+            await Navigation.PushAsync(new Borrarpokemon(PokemonSeleccionado));
         }
 
         public void ProcesoSimple()

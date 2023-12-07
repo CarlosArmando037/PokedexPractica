@@ -14,17 +14,18 @@ namespace MVVM_implementacion_CARS_NEW.Vistas.Pokemon
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Editarpokemon : ContentPage
     {
-        public Editarpokemon()
+        public Editarpokemon(Mpokemon pokemon)
         {
             InitializeComponent ();
-            BindingContext = new VMeditarpokemon(Navigation);
+            BindingContext = new VMeditarpokemon(pokemon,Navigation);
         }
 
         //video
+        /*
         public Editarpokemon(Mpokemon _pokemonModel)
         {
             InitializeComponent();
             BindingContext = new Editarpokemon(_pokemonModel);
-        }
+        }*/
     }
 }

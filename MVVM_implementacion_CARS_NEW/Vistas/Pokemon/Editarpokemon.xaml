@@ -153,21 +153,22 @@
             <Frame HorizontalOptions="Center"
                    Padding="6"
                    Margin="0,10,0,0"
-                   CornerRadius="15"
+                   CornerRadius="50"
                    HasShadow="False"
-                   BackgroundColor="#FEC100">
+                   BackgroundColor="LightGreen">
                 <Button
-                    Text="+"
+                    Text="E"
+                    Grid.Row="1"
+                    HeightRequest="100"
+                    WidthRequest="100"
+                    VerticalOptions="End"
                     HorizontalOptions="Center"
-                    BackgroundColor="#FEC100"
-                    BorderColor="#FFE488"
-                    BorderWidth="6"
-                    CornerRadius="15"
-                    FontAttributes="bold"
-                    FontSize="25"
-                    WidthRequest="60"
-                    HeightRequest="60"
-                    Command="{Binding Modificarcommand}"/>
+                    CornerRadius="50"
+                    Margin="15"
+                    FontSize="50"
+                    FontAttributes="Bold"
+                    BackgroundColor="Green"
+                    Command="{Binding EditarPokemoncommand}"/>
             </Frame>
 
         </StackLayout>

@@ -8,17 +8,11 @@
 
     <Grid RowDefinitions="60,*"
           >
+        
 
         <Grid
             Margin="0,0,0,-30"
             BackgroundColor="#ff1100">
-            <StackLayout  Orientation="Horizontal" Padding="15">
-                <Image Source="Resources/flechaAtras.png" WidthRequest="50">
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer Command="{Binding volvercommand}"/>
-                    </Image.GestureRecognizers>
-                </Image>
-            </StackLayout>
             <Label Text="Eliminar"
            TextColor="White"
            HorizontalOptions="Center"
@@ -27,6 +21,32 @@
            FontAttributes="Bold"/>
         </Grid>
         <!-- aqui seria obtener los datos de la base de datos y se mostratia con el view coleccion creo-->
+        <Frame Grid.Row="1" WidthRequest="250"
+        HorizontalOptions="Center"
+        CornerRadius="15"
+        Margin="0,220,0,325"
+        BackgroundColor="{Binding Txtcolorfondo}">
+            <StackLayout
+         Margin="0,70,0,0">
+                <Label Text="{Binding Txtnro}"/>
+                <Label Text="{Binding Txtnombre}"
+                CharacterSpacing="1"
+                FontSize="20"
+                Margin="0,0,0,5"/>
+                <Button Text="{Binding Txtpoder}"
+                 CornerRadius="30"
+                 HorizontalOptions="Start"
+                 TextTransform="None"
+                 HeightRequest="40"
+                 BackgroundColor="{Binding Txtcolorpoder}"/>
+
+            </StackLayout>
+        </Frame>
+        <Image Source="{Binding Txticono}"
+       Grid.RowSpan="2"
+       HeightRequest="160"
+       VerticalOptions="StartAndExpand"
+               Margin="0,200,0,0"/>
         
         <Grid
             Margin="0,600,0,-800">
@@ -45,6 +65,7 @@
                     BorderColor="Black"
                     BorderWidth="4"
                     CornerRadius="20"
+                    Command="{Binding Eliminarcommand}"
                     />
             <Button Text="NO"
                     BackgroundColor="Red"
@@ -54,6 +75,7 @@
                     BorderColor="Black"
                     BorderWidth="4"
                     CornerRadius="20"
+                    Command="{Binding volvercommand}"
                     />
 
         </Grid>

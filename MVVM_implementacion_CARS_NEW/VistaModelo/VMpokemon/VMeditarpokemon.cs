@@ -22,21 +22,24 @@ namespace MVVM_implementacion_CARS_NEW.VistaModelo.VMpokemon
         string _Txtnro;
         string _Txtpoder;
         string _Txticono;
-
+        Mpokemon _PokeSeleccionado;
         #endregion
         #region CONSTRUCTOR
+        /*
         public VMeditarpokemon(INavigation navigation)
         {
             Navigation = navigation;
-        }
-        public VMeditarpokemon(Mpokemon _pokemonmodel)
+        }*/
+        public VMeditarpokemon(Mpokemon pokeSeleccion, INavigation navigation)
         {
-            _Txtcolorfondo = _pokemonmodel.ColorFondo;
-            _Txtcolorpoder= _pokemonmodel.ColorPoder;
-            _Txtnombre = _pokemonmodel.Nombre;
-            _Txtnro = _pokemonmodel.NroOrden;
-            _Txtpoder = _pokemonmodel.Poder;
-            _Txticono = _pokemonmodel.Icono;
+            Navigation = navigation;
+            _Txtcolorfondo = pokeSeleccion.ColorFondo.ToString();
+            _Txtcolorpoder = pokeSeleccion.ColorPoder.ToString();
+            _Txticono = pokeSeleccion.Icono.ToString();
+            _Txtnombre = pokeSeleccion.Nombre.ToString();
+            _Txtnro = pokeSeleccion.NroOrden.ToString();
+            _Txtpoder = pokeSeleccion.Poder.ToString();
+            _PokeSeleccionado = pokeSeleccion;
         }
 
         #endregion
@@ -81,9 +84,30 @@ namespace MVVM_implementacion_CARS_NEW.VistaModelo.VMpokemon
             get { return _Txticono; }
             set { SetValue(ref _Txticono, value); }
         }
+
+        public Mpokemon PokeSeleccionado
+        {
+            get { return _PokeSeleccionado; }
+            set { SetValue(ref _PokeSeleccionado, value); }
+        }
+
+
         #endregion
         #region PROCESOS
-      
+        public async Task ModificarPokemon()
+        {
+            var funcion = new Dpokemon();
+            PokeSeleccionado.Nombre = Txtnombre;
+            PokeSeleccionado.Poder = Txtpoder;
+            PokeSeleccionado.NroOrden = Txtnro;
+            PokeSeleccionado.Icono = Txticono;
+            PokeSeleccionado.ColorFondo = Txtcolorfondo;
+            PokeSeleccionado.ColorPoder = Txtcolorpoder;
+            await funcion.ModificarPokemon(PokeSeleccionado);
+            await Volver();
+        }
+
+
         public async Task Volver()
         {
             await Navigation.PopAsync();
@@ -93,8 +117,9 @@ namespace MVVM_implementacion_CARS_NEW.VistaModelo.VMpokemon
 
         }
         #endregion
-        #region
+        #region COMANDOS
         public ICommand Volvercommand => new Command(async () => await Volver());
+        public ICommand EditarPokemoncommand => new Command(async () => await ModificarPokemon());
 
         public ICommand ProcesoSimpcommand => new Command(ProcesoSimple);
         #endregion

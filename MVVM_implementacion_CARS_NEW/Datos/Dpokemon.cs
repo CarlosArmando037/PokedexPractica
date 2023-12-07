@@ -19,12 +19,14 @@ namespace MVVM_implementacion_CARS_NEW.Datos
                 .Child("Pokemon")
                 .PostAsync(new Mpokemon()
                 {
+                    
                     ColorFondo = parametros.ColorFondo,
                     ColorPoder = parametros.ColorPoder,
                     Icono = parametros.Icono,
                     Nombre = parametros.Nombre,
                     NroOrden = parametros.NroOrden,
                     Poder = parametros.Poder,
+                    Idpokemon = Guid.NewGuid(),
                     //Idpokemon = parametros.Idpokemon,
 
                 });
@@ -34,10 +36,29 @@ namespace MVVM_implementacion_CARS_NEW.Datos
         {
             var data = await Task.Run(() => Cconexion.firebase
             .Child("Pokemon").OnceSingleAsync<Mpokemon>();
-
-
-
         } */
+
+        public async Task ModificarPokemon(Mpokemon datosActualizados)
+        {
+            var actualizar = (await Cconexion
+                .firebase.Child("Pokemon")
+                .OnceAsync<Mpokemon>())
+                .Where(a => a.Object.Idpokemon == datosActualizados.Idpokemon).FirstOrDefault();
+
+            await Cconexion.firebase
+                .Child("Pokemon")
+                .Child(actualizar.Key)
+                .PutAsync(new Mpokemon()
+                {
+                    Idpokemon = datosActualizados.Idpokemon,
+                    ColorFondo = datosActualizados.ColorFondo,
+                    ColorPoder = datosActualizados.ColorPoder,
+                    NroOrden = datosActualizados.NroOrden,
+                    Icono = datosActualizados.Icono,
+                    Nombre = datosActualizados.Nombre,
+                    Poder = datosActualizados.Poder
+                });
+        }
 
         public async Task<ObservableCollection<Mpokemon>> MostrarPokemones()
         {
@@ -61,6 +82,13 @@ namespace MVVM_implementacion_CARS_NEW.Datos
                 .AsObservableCollection());
                 return data;
         }
+        public async Task BorrarPokemon(Guid idPokemon)
+        {
+            var pokemonABorrar = (await Cconexion.firebase
+                .Child("Pokemon")
+                .OnceAsync<Mpokemon>()).Where(a => a.Object.Idpokemon == idPokemon).FirstOrDefault();
 
+            await Cconexion.firebase.Child("Pokemon").Child(pokemonABorrar.Key).DeleteAsync();
+        }
     }
 }
